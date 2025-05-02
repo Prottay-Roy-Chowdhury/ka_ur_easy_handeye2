@@ -128,4 +128,10 @@ install(
   DESTINATION share/${PROJECT_NAME}/
 )
 
+install(
+  PROGRAMS
+    launch/driver.launch.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 ament_package()
